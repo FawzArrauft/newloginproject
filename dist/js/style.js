@@ -1,5 +1,5 @@
-var themeToggleDarkIcon = document.getElementById("toogle-light-theme");
-var themeToggleLightIcon = document.getElementById("toogle-dark-theme");
+var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
 
 // Change the icons inside the button based on previous settings
 if (
@@ -11,11 +11,10 @@ if (
 } else {
   themeToggleDarkIcon.classList.remove("display-none");
 }
-
 var themeToggleBtn = document.getElementById("toggle-theme");
 
 themeToggleBtn.addEventListener("click", function () {
-  // toggle icons inside button
+
   themeToggleDarkIcon.classList.toggle("display-none");
   themeToggleLightIcon.classList.toggle("display-none");
 
