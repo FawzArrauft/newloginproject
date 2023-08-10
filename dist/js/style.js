@@ -5,7 +5,7 @@ var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
 if (
   localStorage.getItem("color-theme") === "dark" ||
   (!("color-theme" in localStorage) &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches)
+    window.matchMedia("(prefers-color-scheme: dark").matches)
 ) {
   themeToggleLightIcon.classList.remove("display-none");
 } else {

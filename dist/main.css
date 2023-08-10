@@ -1017,6 +1017,44 @@ video {
     margin-left: 115px; */
 }
 
+:is(.dark .dark\:container){
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 540px){
+  :is(.dark .dark\:container){
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 720px){
+  :is(.dark .dark\:container){
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 960px){
+  :is(.dark .dark\:container){
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px){
+  :is(.dark .dark\:container){
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1400px){
+  :is(.dark .dark\:container){
+    max-width: 1400px;
+  }
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -1144,9 +1182,57 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
+:is(.dark .dark\:bg-gray-800){
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-blue-700){
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-slate-400){
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-red-300){
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\]){
+  background-color: ;
+}
+
+:is(.dark .dark\:bg-\[C4C4C4\]){
+  background-color: C4C4C4;
+}
+
+:is(.dark .dark\:bg-\[\#C4C4C4\]){
+  --tw-bg-opacity: 1;
+  background-color: rgb(196 196 196 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gray-700){
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 :is(.dark .dark\:text-gray-400){
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-white){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-black){
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 540px){
